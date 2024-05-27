@@ -1,0 +1,38 @@
+input[type="checkbox"] {
+    display: none;
+    + label {
+        position: relative;
+        display: flex;
+        padding-left: 30px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            border-radius: 4px;
+            width: 18px;
+            height: 18px;
+            background-color: #f9f8f8;
+            border: none;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+        }
+    }
+    &:checked {
+        + label {
+            &:before {
+                background: linear-gradient(180deg, #478cf6 0%, #3060f1 100%);;
+            }
+            &:after {
+                content: '';
+                background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTAiIHZpZXdCb3g9IjAgMCAxMiAxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTkuNTQ0MDYgMC40Mjk3NkM5LjcyMTggMC4yNDM2ODIgOS45NTgzMyAwLjE0MDgxIDEwLjIwMzcgMC4xNDI4NTJDMTAuNDQ5MSAwLjE0NDg5NCAxMC42ODQyIDAuMjUxNjkgMTAuODU5NCAwLjQ0MDcwNUMxMS4wMzQ1IDAuNjI5NzE5IDExLjEzNjEgMC44ODYxNjkgMTEuMTQyNiAxLjE1NTk0QzExLjE0OSAxLjQyNTcxIDExLjA2IDEuNjg3NyAxMC44OTQxIDEuODg2NjNMNS44NTk3MSA4LjgxMDIzQzUuNzczMTQgOC45MTI3NyA1LjY2ODY1IDguOTk1MDUgNS41NTI1MSA5LjA1MjE2QzUuNDM2MzYgOS4xMDkyOCA1LjMxMDkzIDkuMTQwMDUgNS4xODM3MiA5LjE0MjY0QzUuMDU2NTEgOS4xNDUyMyA0LjkzMDEzIDkuMTE5NTkgNC44MTIxMyA5LjA2NzI0QzQuNjk0MTQgOS4wMTQ4OSA0LjU4Njk2IDguOTM2OTIgNC40OTcgOC44Mzc5OEwxLjE1ODM3IDUuMTY2NjdDMS4wNjU0IDUuMDcxNCAwLjk5MDgyMyA0Ljk1NjUyIDAuOTM5MTAxIDQuODI4ODdDMC44ODczNzkgNC43MDEyMiAwLjg1OTU2NyA0LjU2MzQyIDAuODU3MzI1IDQuNDIzN0MwLjg1NTA4MyA0LjI4Mzk3IDAuODc4NDU3IDQuMTQ1MTggMC45MjYwNTIgNC4wMTU2MUMwLjk3MzY0NyAzLjg4NjAzIDEuMDQ0NDkgMy43NjgzMiAxLjEzNDM1IDMuNjY5NTFDMS4yMjQyMSAzLjU3MDY5IDEuMzMxMjUgMy40OTI3OSAxLjQ0OTA4IDMuNDQwNDZDMS41NjY5MiAzLjM4ODEyIDEuNjkzMTMgMy4zNjI0MSAxLjgyMDIgMy4zNjQ4OEMxLjk0NzI2IDMuMzY3MzQgMi4wNzI1NyAzLjM5NzkzIDIuMTg4NjUgMy40NTQ4QzIuMzA0NzMgMy41MTE2OCAyLjQwOTIxIDMuNTkzNjggMi40OTU4NCAzLjY5NTkyTDUuMTM3OTggNi41OTk5NUw5LjUyMDA4IDAuNDYwMjg2QzkuNTI3OTcgMC40NDk2MDMgOS41MzUxNCAwLjQzOTQxMiA5LjU0NDA2IDAuNDI5NzZaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K");
+                position: absolute;
+                top: 4px;
+                left: 3px;
+                color: #01283c;
+                width: 12px;
+                height: 10px;
+            }
+        }
+    }
+}

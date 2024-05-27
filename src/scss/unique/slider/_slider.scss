@@ -1,0 +1,23 @@
+.slider {
+    position: relative;
+    .swiper-notification {
+        display: none;
+    }
+    &:hover {
+        .arrows {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+.slider__item {
+    position: relative;
+}
+.slider-inner {
+    overflow: hidden;
+    &.swiper-container-initialized {
+        .slider-content {
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+@import "../../helpers/helpers";
+
+.arrows {
+    display: flex;
+    grid-gap: 16px;
+    z-index: 1;
+}
+.arrows__container {
+    position: relative;
+}
+.arrows__arrow {
+    width: clamp(48px, 4.44vw, 64px);
+    height: clamp(48px, 4.44vw, 64px);
+    cursor: pointer;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background-color: transparent;
+    border: 1px solid #4ebe99;
+    border-radius: 45%;
+    //transform: translateY(-50%);
+    transition: background-color .3s;
+    &::before {
+        color: #4ebe99;
+        transition: color .3s;
+    }
+    &:hover {
+        border-color: var(--color-primary);
+        background-color: var(--color-primary);
+        &::before {
+            color: #fff;
+        }
+    }
+}
+.arrows__prev {
+    &::before {
+        @include icomoon_base('\e901', 17px);
+    }
+}
+.arrows__next {
+    &::before {
+        @include icomoon_base('\e902', 17px);
+    }
+}
+.arrows__arrow_disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+//@include max-screen(639px) {
+//    .arrows {
+//        display: none !important;
+//    }
+//}

@@ -1,0 +1,75 @@
+:root {
+    // основные цвета
+    --color-primary: #7e58e1;                     // основной цветовой акцент фирменного стиля проекта. Часто используется для ссылок и кнопок. Иногда для иконок.
+    --color-primary-variant: #7e58e1;             // основной цветовой акцент фирменного стиля проекта. Часто используется для ссылок и кнопок. Иногда для иконок.
+    --color-secondary: #83d2b8;                   // второстепенный цветовой акцент фирменного стиля. Чаще всего используется для декора, мелких акцентов и иконок.
+
+    // цвета
+    --color-background: #fff;                     // фон сайта
+
+    // подложка
+    --color-surface: #f9f8f8;                     // подложка/поверхность. То, на чём обычно располагается текст.
+    --color-surface-text: #222222;                // цвет текста на подложке.
+    --color-surface-border: #222222;              // цвет рамок полей и вообще всех рамок и разделительных линий
+    --color-surface-field: #222222;               // цвет фона полей форм
+
+    // базовые цвета
+    --color-base-text: rgba(0, 0, 0, 0.85);       // цвет текста
+    --color-base-link: #4ebe99;                   // цвет ссылки
+    --color-base-link-hover: #4ebe99;             // цвет ссылки при наведении
+    --color-base-link-decoration: currentColor;   // цвет подчеркивания ссылки
+    --color-base-heading: #01283c;                // цвет заголовков
+    --color-base-border: #cccccc;                 // цвет рамок полей и вообще всех рамок и разделительных линий
+
+    // форма
+    --color-form-base-border: #cccccc;            // цвет рамок полей
+    --color-form-base-border--focus: #dddddd;     // цвет рамок полей при фокусе
+    --color-form-base-field: #fff;                // цвет фона полей форм
+
+
+    // цвета цен
+    --color-price: #000000;                       // цена
+    --color-price-old: #9c9fa3;                   // цена старая
+    --color-price-factory: #989898;               // цена завода
+    --color-price-specoffer: #e11515;             // цена спецпредложения
+
+    // цвета статусов
+    --color-status-stock-available: #25d366;      // в наличии
+    --color-status-delivery-time: #6e7782;        // под заказ
+    --color-status-expected: #ef9500;             // ожидается
+    --color-status-success: #1bae70;              // ок
+    --color-status-error: #f03748;                // ошибка
+
+    // цвета ярлыков
+    --color-badge-best-choose: #ff5c00;           // лучший выбор
+    --color-badge-new: #ef1616;                   // новинка
+    --color-badge-discount-percent: #3b37ff;      // скидка в процентах
+    --color-badge-specoffer: #ffa800;             // спецпредложение
+    --color-badge-sale: #7360f2;                  // распродажа
+
+    // возможно не нужно
+    --Dark-bluish-green-100: #01283c;
+    --Sky-blue-100: #12c3f4;
+
+    --Yellowgreen-100: #16322c;
+    --Yellowgreen-90: #a6d04f;
+    --Yellowgreen-80: #b0d562;
+    --Yellowgreen-70: #badb76;
+    --Yellowgreen-60: #c4e089;
+    --Yellowgreen-50: #cee59d;
+    --Yellowgreen-40: #d7eab1;
+    --Yellowgreen-30: #e1efc4;
+    --Yellowgreen-20: #ebf5d8;
+    --Yellowgreen-10: #f5faeb;
+
+    --Shamrock-100: #4ebe99;
+    --Shamrock-90: #60c5a3;
+    --Shamrock-80: #71cbad;
+    --Shamrock-70: #83d2b8;
+    --Shamrock-60: #95d8c2;
+    --Shamrock-50: #a7dfcc;
+    --Shamrock-40: #b8e5d6;
+    --Shamrock-30: #caece0;
+    --Shamrock-20: #dcf2eb;
+    --Shamrock-10: #edf9f5;
+}

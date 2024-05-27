@@ -1,0 +1,73 @@
+@import "../helpers/helpers";
+
+.cookie {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #f9f8f8;
+    padding: 24px;
+    width: 296px;
+    @include resetMarginTop();
+    @include resetMarginBottom();
+}
+.cookie__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 8px 0;
+    a {
+        color: #4ebe99;
+        border-bottom: 1px solid #4ebe99;
+        transition: border-color .3s;
+        &:hover {
+            border-color: transparent;
+        }
+    }
+}
+.cookie__text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 8px 0;
+    p {
+        margin: 0;
+    }
+}
+.cookie__button {
+    margin: 24px 0;
+    a {
+        display: inline-flex;
+        border-radius: 100px;
+        background-color: #4ebe99;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #fff;
+        padding: 7px 28px;
+        transition: background-color .3s;
+        &:hover {
+            background-color: #83d2b8;
+        }
+    }
+}
+
+@include max-screen(639px) {
+    .cookie {
+        border-radius: 16px 16px 0 0;
+        padding: 16px;
+        width: 100%;
+    }
+    .cookie__title {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    .cookie__text {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14px;
+    }
+    .cookie__button {
+        margin: 12px 0;
+    }
+}

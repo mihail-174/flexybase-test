@@ -1,0 +1,251 @@
+@import "../helpers/helpers";
+
+body {
+    font-family: var(--font-family);
+    //font-size: clamp(14px, 1.25vw, 18px);
+    //font-weight: 300;
+    //line-height: clamp(20px, 1.67vw, 24px);
+    color: var(--color-base-text);
+    //background-color: var(--color-background);
+    overflow: auto;
+}
+h1,
+.h1 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: clamp(28px, 3.33vw, 48px);
+    line-height: clamp(32px, 3.89vw, 56px);
+    color: var(--color-base-text);
+    margin: clamp(40px, 4.17vw, 60px) 0 clamp(40px, 3.33vw, 48px);
+}
+h2,
+.h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: clamp(24px, 2.78vw, 40px);
+    line-height: clamp(28px, 3.33vw, 48px);
+    color: var(--color-base-text);
+    margin: clamp(48px, 4.44vw, 64px) 0 clamp(32px, 2.50vw, 36px);
+}
+h3,
+.h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: clamp(20px, 2.22vw, 32px);
+    line-height: clamp(24px, 3.19vw, 46px);
+    color: var(--color-base-text);
+    margin: clamp(48px, 4.44vw, 64px) 0 clamp(32px, 2.50vw, 36px);
+}
+h4, .h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: clamp(18px, 2.22vw, 24px);
+    line-height: clamp(22px, 3.19vw, 38px);
+    color: var(--color-base-text);
+    margin: clamp(48px, 4.44vw, 64px) 0 clamp(32px, 2.50vw, 36px);
+}
+h5, .h5 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: clamp(16px, 1.39vw, 20px);
+    line-height: clamp(20px, 2.08vw, 30px);
+    color: var(--color-base-text);
+    margin: clamp(32px, 2.22vw, 36px) 0 clamp(32px, 2.50vw, 36px);
+}
+h6, .h6 {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-base-text);
+    letter-spacing: 0.05px;
+    margin: 32px 0 24px;
+}
+a {
+    color: var(--color-base-link);
+    text-decoration: none;
+    transition: color .3s, border-color .3s;
+    //border-bottom: 1px solid #4ebe99; // не обязательный
+    &:hover {
+        text-decoration: none;
+        color: var(--color-base-link-hover);
+        //border-bottom-color: transparent; // не обязательный
+    }
+    &:focus {
+        text-decoration: none;
+        color: var(--color-base-link);
+        //border-bottom-color: transparent; // не обязательный
+    }
+}
+b, strong {
+    font-weight: 700;
+    color: #000;
+}
+p, ul, ol, table, hr, .ck-tpl, figure, .table-wrapper {
+    margin: 0 0 clamp(32px, 2.50vw, 36px);
+}
+ol,
+ul {
+    li {
+        margin: 24px 0;
+    }
+}
+ul {
+    padding-left: 24px;
+    li {
+        &::before {
+            content: "\2022";
+            position: absolute;
+            top: 0;
+            left: -24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            color: #4ebe99;
+        }
+    }
+}
+ol {
+    counter-reset: num;
+    list-style: none;
+    padding-left: 24px;
+    li {
+        position: relative;
+        &::before {
+            content: counter(num) '.';
+            counter-increment: num;
+            position: absolute;
+            top: 0;
+            left: -24px;
+            display: flex;
+            align-items: center;
+            width: 24px;
+            color: #4ebe99;
+        }
+    }
+}
+//ol {
+//    counter-reset: li;
+//    padding-left: $list-ol-padding-left;
+//    li {
+//        &:before {
+//            content: counter(li);
+//            counter-increment: li;
+//            top: $list-ol-content-top;
+//            left: $list-ol-content-left;
+//            color: $list-li-content-color;
+//        }
+//    }
+//}
+figure {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 16px;
+    img {
+        display: block;
+    }
+}
+figcaption {
+    font-size: clamp(12px, 0.97vw, 14px);
+    font-weight: 300;
+    line-height: clamp(16px, 1.39vw, 20px);
+    color: #677e8a;
+}
+hr {
+    height: 1px;
+    background-color: var(--color-base-border);
+}
+table {
+    width: 100% !important;
+    border: 1px solid var(--color-base-border);
+    thead {
+        background-color: #4ebe99;
+        th, td {
+            font-size: clamp(14px, 1.11vw, 16px);
+            font-weight: 600;
+            line-height: clamp(20px, 1.67vw, 24px);
+            color: #ffffff;
+            text-align: left;
+            border: 1px solid #4ebe99;
+        }
+    }
+    th,
+    td {
+        padding: 12px 16px;
+        border: 1px solid rgba(1, 40, 60, 0.20);
+        font-size: clamp(12px, 1.11vw, 16px);
+        font-weight: 300;
+        line-height: clamp(16px, 1.39vw, 20px);
+        color: #01283c;
+        @include resetMarginTop();
+        @include resetMarginBottom();
+    }
+}
+.table-wrapper {
+    table {
+        margin: 0;
+    }
+}
+table[border="0"] {
+    border-width: 0;
+    th,
+    td {
+        border-width: 0;
+    }
+}
+
+//@include max-screen(1279px) {}
+//@include max-screen(1023px) {
+//    h1,
+//    .h1 {
+//        font-size: 24px;
+//        line-height: 32px;
+//        letter-spacing: 0.06px;
+//        //margin: 28px 0 16px;
+//    }
+//    h2,
+//    .h2 {
+//        font-size: 20px;
+//        line-height: 28px;
+//        letter-spacing: 0;
+//        //margin: 32px 0 16px;
+//    }
+//    h3,
+//    .h3 {
+//        font-size: 18px;
+//        line-height: 28px;
+//        letter-spacing: 0.027px;
+//        //margin: 32px 0 24px;
+//    }
+//    h4, h5, h6,
+//    .h4, .h5, .h6 {
+//        font-size: 18px;
+//        //line-height: 28px;
+//        letter-spacing: 0.09px;
+//        //margin: 32px 0 24px;
+//    }
+//}
+//@include max-screen(767px) {
+//    //h1,
+//    //.h1 {
+//    //    font-size: 24px;
+//    //    line-height: 32px;
+//    //    letter-spacing: 0;
+//    //    //margin: 48px 0 16px;
+//    //}
+//    //h2,
+//    //.h2 {
+//    //    font-size: 20px;
+//    //    line-height: 28px;
+//    //    //letter-spacing: 0.0015em;
+//    //    //margin: 32px 0 16px;
+//    //}
+//    //h3,
+//    //.h3 {
+//    //    font-size: 20px;
+//    //    line-height: 28px;
+//    //    letter-spacing: 0.0015em;
+//    //    margin: 32px 0 16px;
+//    //}
+//}

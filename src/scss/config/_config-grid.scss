@@ -1,0 +1,29 @@
+@import "../helpers/helpers";
+
+// СЕТКА
+// ########################################################################################
+:root {
+    --container: clamp(0px,83.611vw,1204px);
+    //--grid-column: 12;
+    //--grid-width: 82px;
+    //--grid-gap: 16px;
+}
+//@include max-screen(1344px) {
+//    :root {
+//        --container: 992px;
+//        //--grid-width: 68px;
+//    }
+//}
+//@include max-screen(1023px) {
+//    :root {
+//        --container: 100%;
+//        --grid-column: 4;
+//        --grid-width: 1fr;
+//        --grid-gap: 16px;
+//    }
+//}
+//@include max-screen(767px) {
+//    :root {
+//        --grid-gap: 8px;
+//    }
+//}

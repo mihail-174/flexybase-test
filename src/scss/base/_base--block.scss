@@ -1,0 +1,17 @@
+.block {
+    @include max-screen(767px) {
+        margin-bottom: 64px;
+    }
+}
+.block__title {
+    font-weight: 800;
+    font-size: clamp(24px,3.333vw,48px);
+    line-height: 145%;
+    color: rgba(0, 0, 0, 0.85);
+}
+.block__description {
+    font-weight: 500;
+    font-size: clamp(16px,2.222vw,32px);
+    line-height: 145%;
+    color: rgba(0, 0, 0, 0.5);
+}
