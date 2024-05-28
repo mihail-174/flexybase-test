@@ -7,26 +7,11 @@
 @import "base/base--reset";
 @import "base/base--include-fonts";
 @import "base/base--base";
-//@import "base/base--buttons";
-//@import "base/base--form";
 @import "base/base--checkbox";
 @import "base/base--radio";
 @import "base/base--block";
 
 @import "unique/layout";
-//@import "unique/header";
-//@import "unique/footer";
-//@import "unique/breadcrumbs";
-//@import "unique/pager";
-//
-//@import "unique/slider/slider";
-//@import "unique/slider/slider-arrows";
-//@import "unique/slider/slider-dots";
-//
-//@import "unique/cookie";
-//@import "unique/not-found";
-//
-//@import "unique/promo";
 
 .header__container {
     display: flex;
@@ -1439,7 +1424,7 @@
     border-radius: 37px;
     padding: 5px 20px;
     font-weight: 500;
-    font-size: 24px;
+    font-size: clamp(16px,1.667vw,24px);
     line-height: 145%;
     text-align: center;
     color: #fff;
