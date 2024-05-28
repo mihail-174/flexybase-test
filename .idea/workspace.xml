@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed09adc4-370a-472e-9221-51957ec9bb73" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_base--block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/_base--block.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_base--buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/_base--form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_cookie.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_not-found.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/_promo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/block/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/node/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/page/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/slider/_slider-arrows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/slider/_slider-dots.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/slider/_slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/unique/teasers/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/replace-url.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/replace-url.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2bzlYSLxQuNukPaRQaM7zaq3Aii" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Рабочий стол/Тестовые задания/Флексибейс",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "E:\\Рабочий стол\\Тестовые задания\\Флексибейс\\node_modules\\stylelint",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.nodeuse12.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="nodeuse12" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="nodeuse12" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.nodeuse12" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed09adc4-370a-472e-9221-51957ec9bb73" name="Changes" comment="" />
+      <created>1707225837080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707225837080</updated>
+      <workItem from="1707225838139" duration="77000" />
+      <workItem from="1707226449584" duration="2193000" />
+      <workItem from="1707229848259" duration="70000" />
+      <workItem from="1707229936315" duration="1066000" />
+      <workItem from="1708014576278" duration="64000" />
+      <workItem from="1709098512259" duration="689000" />
+      <workItem from="1710254283888" duration="110000" />
+      <workItem from="1716555351943" duration="190000" />
+      <workItem from="1716555545135" duration="66000" />
+      <workItem from="1716555632465" duration="18528000" />
+      <workItem from="1716692773863" duration="4070000" />
+      <workItem from="1716696880600" duration="14982000" />
+      <workItem from="1716739164968" duration="1234000" />
+      <workItem from="1716813277139" duration="10543000" />
+      <workItem from="1716899649787" duration="861000" />
+    </task>
+    <task id="LOCAL-00001" summary="хз для чего это, но без этого не работает второй yarn">
+      <option name="closed" value="true" />
+      <created>1707230287822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707230287822</updated>
+    </task>
+    <task id="LOCAL-00002" summary="хз для чего это, но без этого не работает второй yarn">
+      <option name="closed" value="true" />
+      <created>1707230760237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707230760237</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1716824281415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716824281415</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="хз для чего это, но без этого не работает второй yarn" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+</project>
